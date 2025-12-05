@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    <body>
+        <h2>My first form</h2>
+
+        <form>
+            <div>
+                <input id="male" type="radio" name="gender" value="male" checked>
+                <label for="male">Male</label>
+                <br>
+                <input id="female" type="radio" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                <input id="other" type="radio" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="vehicle1" value="bike" id="bike" checked>
+                <label for="bike">Bike</label>
+                <br>
+                <input type="checkbox" name="vehicle2" value="motorcycle" id="motorcycle">
+                <label for="motorcycle">Motorcycle</label>
+                <br>
+                <input type="checkbox" name="vehicle3" value="car" id="car">
+                <label for="car">Car</label>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Personal information (Nationality, Name, Years of service, Email)</legend>
+
+                    <div>
+                        <label for="nationality">Nationality</label>
+                        <select name="nationality" id="nationality">
+                            <option value="" disabled selected>Choose nationality</option>
+                            <option value="greek">Greek</option>
+                            <option value="english">English</option>
+                            <option value="spanish">Spanish</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="firstname">Name</label>
+                        <input type="text" name="firstname" id="firstname"
+                            placeholder="Please enter a name" minlength="4" maxlength="15" required>
+                    </div>
+
+                    <div>
+                        <label for="work-experience">Years of service</label>
+                        <input type="number" name="work-experience" id="work-experience" min="3" max="20">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </fieldset>
+            </div>
+
+
+            <div>
+             <label for="message">Write your message</label>
+             <textarea name="message" id="message" rows="10" cols="30"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="cleaning">
+            </div>
+        </form>
+        
+    </body>
+</html>
