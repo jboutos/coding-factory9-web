@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="el">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercise 2</title>
+    </head>
+    <body>
+        <h1>Αίτηση συμμετοχής</h1>
+        <form>
+            <div>
+                <h2>Προσωπικά στοιχεία</h2>
+                <label for="firstname">'Ονομα</label>
+                <input type="text" name="firstname" id="firstname"
+                    placeholder="Please enter a name" minlength="4" maxlength="15" required>
+                <label for="firstname">Επώνυμο</label>
+                <input type="text" name="lastname" id="lastname"
+                    placeholder="Please enter a name" minlength="4" maxlength="15" required>
+                <label for="fathername">Πατρώνυμο</label>
+                <input type="text" name="fathername" id="fathername"
+                    placeholder="Please enter a name" minlength="4" maxlength="15" required>
+            </div>
+
+            <div>
+                <h2>Στοιχεία κατοικίας</h2>
+                <label for="address">Διεύθυνση κατοικίας</label>
+                <input type="text" name="address" id="address"
+                    placeholder="Please enter an address" minlength="1" maxlength="15" required>
+                <label for="number">Αριθμός</label>
+                <input type="number" name="number" id="number"
+                    placeholder="Please enter a number" min="1" max="3" required>
+                <label for="tk">Τ.Κ</label>
+                <input type="text" name="tk" id="tk"
+                    placeholder="" minlength="1" maxlength="5" required>
+            </div>
+
+            <div>
+                <h2>Στοιχεία Επικοινωνίας</h2>
+                <label for="numbertype">Τηλέφωνο</label>
+                <input type="text" name="numbertype" id="numbertype"
+                    placeholder="Please enter type of number" minlength="1" maxlength="15" required>
+                <label for="tnumber">Αριθμός</label>
+                <input type="text" name="tnumber" id="tnumber"
+                    placeholder="Please enter a number" minlength="1" maxlength="15" required>
+            </div>
+        </form>
+        
+    </body>
+</html>
