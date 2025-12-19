@@ -1,0 +1,15 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*class name starts with box*/
+div[class^="box"] {
+    width: 200px;
+    height: 200px;
+    margin: 0 5px;
+    background-color: LIGHTBLUE;
+    border: 1px solid black;
+}

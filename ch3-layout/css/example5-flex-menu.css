@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #762124;
+}
+
+.nav {
+    background-color: green;
+    width: 100%;
+}
+
+.nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

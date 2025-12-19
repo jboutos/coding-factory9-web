@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+div[class^="box"] {
+    width: 100px;
+    height: 100px;
+    margin: 0 5px;
+    background-color: lightblue;
+    margin: 5px 0;
+}
